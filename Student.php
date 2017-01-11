@@ -1,7 +1,7 @@
 <?php
 
 class Student {
-	funnction __construct() {
+	function __construct() {
 		$this->surname = "";
 		$this->firstname = "";
 		$this->emails = array();
@@ -12,7 +12,7 @@ class Student {
 		$this->emails[$which] = $address;
 	}
 	
-	function addGrades($grade) {
+	function addGrade($grade) {
 		$this->grades[] = $grade;
 	}
 	
